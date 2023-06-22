@@ -1,4 +1,4 @@
-package com.example.joblistingproject;
+package com.example.joblistingproject.Repository;
 
 import com.example.joblistingproject.model.Post;
 import org.springframework.data.mongodb.repository.MongoRepository;
