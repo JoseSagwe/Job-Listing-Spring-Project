@@ -1,6 +1,5 @@
 package com.example.joblistingproject.controller;
 
-
 import com.example.joblistingproject.Repository.PostRepository;
 import com.example.joblistingproject.Repository.SearchRepository;
 import com.example.joblistingproject.model.Post;
@@ -15,7 +14,6 @@ import java.util.List;
 @RestController
 public class PostController
 {
-
     @Autowired
     PostRepository repo;
 
