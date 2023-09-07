@@ -16,6 +16,7 @@ import java.util.List;
 public class PostController
 {
 
+    
 
     @Autowired
     PostRepository repo;
@@ -34,6 +35,8 @@ public class PostController
     {
         return repo.findAll();
     }
+
+    
 
     //eg post/ java ........{text} wil be replaced by java
     @GetMapping("/posts/{text}")
