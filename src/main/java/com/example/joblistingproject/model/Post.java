@@ -4,7 +4,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Arrays;
 
-
 @Document(collection = "JobPost")
 public class Post {
     private String profile;
@@ -47,6 +46,8 @@ public class Post {
     public void setTechs(String[] techs) {
         this.techs = techs;
     }
+
+    
 
     @Override
     public String toString() {
