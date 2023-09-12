@@ -1,4 +1,4 @@
-# Job-Listing-Spring-Project BACKEND APIs
+# Job-Listing BACKEND APIs (Endpoints)
 
 # Job Listing Project
 ## Overview
