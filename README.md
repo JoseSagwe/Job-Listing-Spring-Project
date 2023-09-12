@@ -1,10 +1,13 @@
 # Job-Listing BACKEND APIs (Endpoints)
 
+
 # Job Listing Project
+
 ## Overview
 
 This is a job listing project built with Spring Boot and MongoDB, allowing you to create and search job posts. It includes RESTful APIs for managing job posts and a search feature based on text queries.
 ## API Endpoints
+
 
 - **Get All Job Posts**
 
@@ -46,6 +49,7 @@ This is a job listing project built with Spring Boot and MongoDB, allowing you t
     This will create a new job post with the specified details.
 
 
+
 ## Installation
 
 1. **Clone the repository:**
@@ -61,6 +65,7 @@ This is a job listing project built with Spring Boot and MongoDB, allowing you t
 4. **Database Configuration:**
 
    This project uses MongoDB as the database. Ensure you have MongoDB installed and running locally or provide the appropriate MongoDB connection details in the application properties.
+
 
 ## Usage
 
