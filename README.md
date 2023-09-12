@@ -85,21 +85,3 @@ Example JSON payload for creating a job post:
    "techs": ["Java", "Spring Boot"]
 }
 ```
-
-## API Documentation
-
-For detailed API documentation and examples, please refer to the [Swagger UI](http://localhost:8080/swagger-ui.html) when the application is running.
-
-## Contributing
-
-We welcome contributions to this project! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
-
-Before contributing, please review our [Contributing Guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize the README further to include any additional information specific to your project. Make sure to replace placeholders like `your-username` and update URLs as needed.
