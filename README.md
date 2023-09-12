@@ -1,34 +1,56 @@
 # Job-Listing-Spring-Project BACKEND APIs
 
 # Job Listing Project
-
-
 ## Overview
 
 This is a job listing project built with Spring Boot and MongoDB, allowing you to create and search job posts. It includes RESTful APIs for managing job posts and a search feature based on text queries.
+## API Endpoints
 
-## Table of Contents
+- **Get All Job Posts**
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Contributing](#contributing)
-- [License](#license)
+  - **URL:** `/posts`
+  - **Method:** GET
+  - **Description:** Retrieve a list of all job posts.
+
+- **Search Job Posts by Text**
+
+  - **URL:** `/posts/{text}`
+  - **Method:** GET
+  - **Description:** Search for job posts based on text queries.
+
+  - **Example:**
+
+    ```
+    GET /posts/java
+    ```
+
+    This will search for job posts containing the word "java" in their descriptions, profiles, or technologies.
+
+- **Add a New Job Post**
+
+  - **URL:** `/post`
+  - **Method:** POST
+  - **Description:** Create a new job post.
+
+  - **Request Body Example:**
+
+    ```json
+    {
+       "profile": "Job Title",
+       "desc": "Job Description",
+       "exp": 2,
+       "techs": ["Java", "Spring Boot"]
+    }
+    ```
+
+    This will create a new job post with the specified details.
+
 
 ## Installation
 
 1. **Clone the repository:**
 
-   ```shell
-   git clone https://github.com/your-username/job-listing-project.git
-   cd job-listing-project
-   ```
-
 2. **Build and run the project:**
-
-   ```shell
-   ./mvnw spring-boot:run
-   ```
 
    The application will start, and you can access it at `http://localhost:8080`.
 
