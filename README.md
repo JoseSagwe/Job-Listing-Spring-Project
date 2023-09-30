@@ -16,7 +16,6 @@ This is a job listing project built with Spring Boot and MongoDB, allowing you t
   - **Description:** Retrieve a list of all job posts.
 
 - **Search Job Posts by Text**
-
   - **URL:** `/posts/{text}`
   - **Method:** GET
   - **Description:** Search for job posts based on text queries.
@@ -28,7 +27,6 @@ This is a job listing project built with Spring Boot and MongoDB, allowing you t
     This will search for job posts containing the word "java" in their descriptions, profiles, or technologies.
 
 - **Add a New Job Post**
-
   - **URL:** `/post`
   - **Method:** POST
   - **Description:** Create a new job post.
