@@ -58,8 +58,6 @@ This is a job listing project built with Spring Boot and MongoDB, allowing you t
 4. **Database Configuration:**
 
    This project uses MongoDB as the database. Ensure you have MongoDB installed and running locally or provide the appropriate MongoDB connection details in the application properties.
-
-
 ## Usage
 
 - **View All Job Posts:**
