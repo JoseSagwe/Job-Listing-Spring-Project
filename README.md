@@ -5,8 +5,6 @@
 
 # Job Listing Project
 
-
-
 ## Overview
 
 
