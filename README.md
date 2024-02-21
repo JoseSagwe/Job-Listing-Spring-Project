@@ -12,8 +12,6 @@ This is a job listing project built with Spring Boot and MongoDB, allowing you t
   - **URL:** `/posts/{text}`
   - **Method:** GET
   - **Description:** Search for job posts based on text queries.
-
-
   - **Example:**
     ```
     GET /posts/java
