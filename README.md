@@ -5,6 +5,7 @@
 This is a job listing project built with Spring Boot and MongoDB, allowing you to create and search job posts. It includes RESTful APIs for managing job posts and a search feature based on text queries.
 ## API Endpoints
 
+
 - **Get All Job Posts**
   - **URL:** `/posts`
   - **Method:** GET
@@ -15,6 +16,8 @@ This is a job listing project built with Spring Boot and MongoDB, allowing you t
   - **Description:** Search for job posts based on text queries.
   - **Example:**
     ```
+
+    
     GET /posts/java
     ```
     This will search for job posts containing the word "java" in their descriptions, profiles, or technologies.
