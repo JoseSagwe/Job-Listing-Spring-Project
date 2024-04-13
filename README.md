@@ -33,8 +33,6 @@ This is a job listing project built with Spring Boot and MongoDB, allowing you t
        "techs": ["Java", "Spring Boot"]
     }
     ```
- 
-    
     This will create a new job post with the specified details.
 
 ## Installation
