@@ -6,8 +6,6 @@ This is a job listing project built with Spring Boot and MongoDB, allowing you t
 ## API Endpoints
 
 - **Get All Job Posts**
-
-
   - **URL:** `/posts`
   - **Method:** GET
   - **Description:** Retrieve a list of all job posts.
