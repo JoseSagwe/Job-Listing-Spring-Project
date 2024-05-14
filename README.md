@@ -1,13 +1,17 @@
 # Job-Listing BACKEND APIs (Endpoints)
 ![joblisting](https://github.com/JoseSagwe/Job-Listing-Spring-Project/assets/110198843/0c3f6aae-2ccb-41f7-88f5-075721c0763c)
 # Job Listing Project
+
 ## Overview
+
 This is a job listing project built with Spring Boot and MongoDB, allowing you to create and search job posts. It includes RESTful APIs for managing job posts and a search feature based on text queries.
 ## API Endpoints
+
 - **Get All Job Posts**
   - **URL:** `/posts`
   - **Method:** GET
   - **Description:** Retrieve a list of all job posts.
+  
 - **Search Job Posts by Text**
   - **URL:** `/posts/{text}`
   - **Method:** GET
